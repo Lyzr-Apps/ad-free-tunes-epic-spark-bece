@@ -1,0 +1,12 @@
+{
+  "agent_name": "Music Discovery Agent",
+  "agent_id": "699ec84763b93379f288d38e",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "response_schema": {
+    "message": "string - Conversational response message",
+    "tracks": "array of objects - Each with: title (string), artist (string), genre (string), source (string), url (string), description (string)",
+    "playlist_action": "object or null - With: action (string), playlist_name (string), track_indices (array of numbers)"
+  }
+}

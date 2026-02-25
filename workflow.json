@@ -1,0 +1,32 @@
+{
+  "nodes": [
+    {
+      "id": "input_node",
+      "type": "Input",
+      "label": "User Query",
+      "nodeCategory": "input"
+    },
+    {
+      "id": "music_discovery_agent",
+      "type": "Agent",
+      "label": "Music Discovery Agent",
+      "nodeCategory": "agent"
+    },
+    {
+      "id": "output_node",
+      "type": "Output",
+      "label": "Recommendations",
+      "nodeCategory": "end"
+    }
+  ],
+  "edges": [
+    {
+      "source": "input_node",
+      "target": "music_discovery_agent"
+    },
+    {
+      "source": "music_discovery_agent",
+      "target": "output_node"
+    }
+  ]
+}

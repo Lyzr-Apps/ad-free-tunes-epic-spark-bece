@@ -1,0 +1,36 @@
+{
+  "agent_name": "Music Discovery Agent",
+  "agent_id": "699ec84763b93379f288d38e",
+  "description": "Understands user music preferences (mood, genre, artist) and searches the web for legally free tracks from Creative Commons, Free Music Archive, Jamendo, and royalty-free platforms. Provides curated recommendations with track name, artist, genre, source link, and helps organize tracks into named playlists.",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "message": "string",
+    "tracks": [
+      {
+        "title": "string",
+        "artist": "string",
+        "genre": "string",
+        "source": "string",
+        "url": "string",
+        "description": "string"
+      }
+    ],
+    "playlist_action": "string"
+  },
+  "example_response": {
+    "message": "Conversational response message to the user",
+    "tracks": [
+      {
+        "title": "Track title",
+        "artist": "Artist name",
+        "genre": "Genre or style",
+        "source": "Source platform name",
+        "url": "Direct URL to the track",
+        "description": "Brief mood/style description"
+      }
+    ],
+    "playlist_action": "sample"
+  }
+}

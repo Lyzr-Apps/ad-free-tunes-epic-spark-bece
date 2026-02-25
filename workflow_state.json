@@ -1,0 +1,11 @@
+{
+  "agents": {
+    "music_discovery_agent": {
+      "agent_id": "699ec84763b93379f288d38e",
+      "name": "Music Discovery Agent",
+      "provider": "perplexity",
+      "model": "sonar-pro",
+      "type": "single"
+    }
+  }
+}
